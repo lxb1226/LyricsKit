@@ -13,7 +13,7 @@ extension Lyrics {
     
     public struct Metadata {
         
-        fileprivate var data: [Key: Any]
+        public var data: [Key: Any]
         
         public init(_ data: [Key: Any] = [:]) {
             self.data = data
