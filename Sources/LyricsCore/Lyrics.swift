@@ -11,7 +11,7 @@ import Foundation
 
 final public class Lyrics {
     
-    fileprivate var lines: [LyricsLine] = []
+    private var lines: [LyricsLine] = []
     public var idTags: [IDTagKey: String] = [:]
     public var metadata: Metadata = Metadata()
     
